@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/common.css">
+</head>
+<body>
+
+    <section id="main">
+
+<!-- ------------------------------팝업 시작 -------------------------->
+
+        <!-- 예약기능on 일 때 박스 선택시 -->
+        <article class="bl_pop_wrapper blind">
+            <div class="bl_pop hp_p40">
+                <section class="un_calendar">
+                    <div class="un_calendar_header">
+                        <a class="ic_arrow__left"></a>
+                        <p>2021.11</p>
+                        <a class="ic_arrow__right"></a>
+                    </div>
+                    <div class="un_calendar_main">
+                        <p class="un_calendar_part red">일</p>
+                        <p class="un_calendar_part">월</p>
+                        <p class="un_calendar_part">화</p>
+                        <p class="un_calendar_part">수</p>
+                        <p class="un_calendar_part">목</p>
+                        <p class="un_calendar_part">금</p>
+                        <p class="un_calendar_part">토</p>
+                        <p class="un_calendar_part soft">26</p>
+                        <p class="un_calendar_part soft">27</p>
+                        <p class="un_calendar_part soft">28</p>
+                        <p class="un_calendar_part soft">29</p>
+                        <p class="un_calendar_part soft">30</p>
+                        <p class="un_calendar_part soft">1</p>
+                        <p class="un_calendar_part soft">2</p>
+                        <p class="un_calendar_part soft">3</p>
+                        <p class="un_calendar_part soft">4</p>
+                        <p class="un_calendar_part">5</p>
+                        <p class="un_calendar_part">6</p>
+                        <p class="un_calendar_part">7</p>
+                        <p class="un_calendar_part">8</p>
+                        <p class="un_calendar_part">9</p>
+                        <p class="un_calendar_part">10</p>
+                        <p class="un_calendar_part">11</p>
+                        <p class="un_calendar_part">12</p>
+                        <p class="un_calendar_part">13</p>
+                        <p class="un_calendar_part check">14</p>
+                        <p class="un_calendar_part">15</p>
+                        <p class="un_calendar_part">16</p>
+                        <p class="un_calendar_part">17</p>
+                        <p class="un_calendar_part">18</p>
+                        <p class="un_calendar_part">19</p>
+                        <p class="un_calendar_part">20</p>
+                        <p class="un_calendar_part">21</p>
+                        <p class="un_calendar_part">22</p>
+                        <p class="un_calendar_part">23</p>
+                        <p class="un_calendar_part">24</p>
+                        <p class="un_calendar_part">25</p>
+                        <p class="un_calendar_part">26</p>
+                        <p class="un_calendar_part">27</p>
+                        <p class="un_calendar_part">28</p>
+                        <p class="un_calendar_part">29</p>
+                        <p class="un_calendar_part">30</p>
+                        <p class="un_calendar_part">31</p>
+                        <p class="un_calendar_part soft">1</p>
+                        <p class="un_calendar_part soft">2</p>
+                        <p class="un_calendar_part soft">3</p>
+                        <p class="un_calendar_part soft">4</p>
+                        <p class="un_calendar_part soft">5</p>
+                        <p class="un_calendar_part soft">6</p>
+                    </div>
+                </section>
+                <section class="un_timeSet">
+                    <div class="un_timeSet_twoRadioBtn">
+                        <input id="day" checked type="radio" name="dayAndNight">
+                        <label for="day">오전</label>
+                        <input id="night" type="radio" name="dayAndNight">
+                        <label for="night">오후</label>
+                    </div>
+                    <div class="un_timeSet_time">
+                        <div class="un_timeSet_timeCol">
+                            <input type="num" id="hour" placeholder="00">
+                            <label for="hour">시</label>
+                        </div>
+                        <div class="un_timeSet_timeCol">
+                            <input type="num" id="minute" placeholder="00">
+                            <label for="minute">분</label>
+                        </div>
+                    </div>
+                </section>
+                <section class="un_timeSet_footer">
+                    <p>2021년 11월 26일 (목) 오전 9:10</p>
+                    <div class="un_timeSet_towBtn">
+                        <button class="el_lineBtn32">확인</button>
+                        <button class="el_bgBtn32 el_bgBtn32_soft">취소</button>
+                    </div>
+                </section>
+            </div>
+        </article>
+
+
+<!-- ------------------------팝업 끝--------------------------->
+
+        <header class="hp_bgGreen">
+            <div class="ly_header bl_header">
+                <figure class="bl_header_imgWrapper">
+                    <img src="/images/logo_oeText.svg" alt="오이로고 이미지">
+                </figure>
+                <p class="bl_header_txt">관리</p>
+            </div>
+        </header>
+
+        <section class="ly_main">
+            <div>
+                <!-- 사이드 메뉴 -->
+                <aside>
+                    <nav class="bl_sideNavBar">
+                        <ul>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#">메인</a>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#" class="hp_nomalCusor">회원관리</a>
+                                <ul>
+                                    <li class="bl_sideNavBar_subList"><a href="#">가입자수</a></li>
+                                    <li class="bl_sideNavBar_subList"><a href="#">탈퇴회원</a></li>
+                                </ul>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#" class="hp_nomalCusor">모임</a>
+                                <ul>
+                                    <li class="bl_sideNavBar_subList"><a href="#">모임정보</a></li>
+                                    <li class="bl_sideNavBar_subList"><a href="#">인원확장요청</a></li>
+                                </ul>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#">커뮤니티</a>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#" class="hp_nomalCusor">컨텐츠</a>
+                                <ul>
+                                    <li class="bl_sideNavBar_subList"><a href="#">컨텐츠내역</a></li>
+                                    <li class="bl_sideNavBar_subList on"><a href="#">컨텐츠작성</a></li>
+                                </ul>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#">통계</a>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#" class="hp_nomalCusor">알림</a>
+                                <ul>
+                                    <li class="bl_sideNavBar_subList"><a href="#">알림내역</a></li>
+                                    <li class="bl_sideNavBar_subList"><a href="#">알림작성</a></li>
+                                </ul>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#">신고</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+
+                <article class="ly_contents">
+                    <!-- 타이틀 -->
+                    <section class="el_mainTtl_wrapper between">
+                        <h1 class="el_mainTtl">컨텐츠 작성</h1>
+                        <div class="el_twoBtnWrapper">
+                            <button class="el_bgBtn32">저장</button>
+                            <button class="el_lineBtn32">삭제</button>
+                        </div>
+                    </section>
+                    <!-- 컨텐츠 대표 정보 -->
+                    <section class="un_cntMainEdit ly_mainCnt3">
+                        <div class="un_cntMainEdit_catRow">
+                            <select class="un_cntMainEdit_cat">
+                                <option>카테고리를 선택해주세요</option>
+                                <option>뷰티</option>
+                                <option>건강</option>
+                                <option>재미</option>
+                                <option>라이프</option>
+                                <option>기타</option>
+                            </select>
+                            <!-- 예약기능 -->
+                            <div class="un_cntMainEdit_sendTime">
+                                <input type="checkbox" class="blind" id="sendTime">
+                                <label for="sendTime"></label>
+                                <!-- <p>에 내용 입력됨 -->
+                                <p></p>
+                            </div>
+                        </div>
+                        <input class="un_cntMainEdit_ttlInp" type="text" placeholder="제목">
+                        <div class="un_cntMainEdit_imgRow">
+                            <div class="un_cntMainEdit_left">
+                                <figure class="un_cntMainEdit_imgWrapper">
+                                    <input class="blind" type="file" id="contentsMainImg">
+                                    <label for="contentsMainImg">
+                                        <img class="blind" src="https://cdn.pixabay.com/photo/2022/02/20/09/46/lama-7024125__340.jpg">
+                                    </label>
+                                </figure>
+                                <input type="text" placeholder="유튜브 링크">
+                            </div>
+                            <div class="un_cntMainEdit_right">
+                                <section class="un_cntMainEdit_search">
+                                    <input type="text" placeholder="연관컨텐츠">
+                                    <ul class="un_cntMainEdit_searchbox">
+                                        <li>요즘 이거모르면 찐따</li>
+                                        <li>걷기만 해도 돈을 번다고?</li>
+                                        <li>잠만 자도 돈을 번다고?</li>
+                                        <li>이제는 공부하자 / 스테픈</li>
+                                        <li>족팍나무라고 아시나요?</li>
+                                        <li>대표님 배고파요</li>
+                                    </ul>
+                                </section>
+                                <section class="un_cntMainEdit_searchResult">
+                                    <div class="un_cntMainEdit_searchResult_item">
+                                        <a href="#" class="ic_cancle__red"></a>
+                                        <p>대표님 배고파요</p>
+                                        <div>
+                                            <a href="#" class="ic_lineArrow__top"></a>
+                                            <a href="#" class="ic_lineArrow__bottom"></a>
+                                        </div>
+                                    </div>
+                                    <div class="un_cntMainEdit_searchResult_item">
+                                        <a href="#" class="ic_cancle__red"></a>
+                                        <p>대표님 배고파요</p>
+                                        <div>
+                                            <a href="#" class="ic_lineArrow__top"></a>
+                                            <a href="#" class="ic_lineArrow__bottom"></a>
+                                        </div>
+                                    </div>
+                                    <div class="un_cntMainEdit_searchResult_item">
+                                        <a href="#" class="ic_cancle__red"></a>
+                                        <p>대표님 배고파요</p>
+                                        <div>
+                                            <a href="#" class="ic_lineArrow__top"></a>
+                                            <a href="#" class="ic_lineArrow__bottom"></a>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- 컨텐츠 내용 -->
+                    <section class="un_cntEdit">
+                        <h2 class="un_cntEdit_ttl">내용</h2>
+                        <!-- 메뉴 -->
+                        <div class="un_cntEdit_menu">
+                            <a href="#" class="ic_bgPlus__blue"></a>
+                            <ul class="un_cntEdit_icWrapper">
+                                <li href="#" class="ic_paperText"></li>
+                                <li href="#" class="ic_img"></li>
+                                <li href="#" class="ic_shoppingBag"></li>
+                            </ul>
+                        </div>
+                        <!-- 글 추가 시 -->
+                        <section class="un_cntEdit_text un_cntEdit_cntUint">
+                            <textarea type="text" placeholder="글을 작성해주세요"></textarea>
+                            <div class="un_cntEdit_icBox">
+                                <a href="#" class="ic_wastebasket"></a>
+                                <div class="un_cntEdit_arrowBox">
+                                    <a href="#" class="ic_lineArrow__top"></a>
+                                    <a href="#" class="ic_lineArrow__bottom"></a>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- 메뉴 -->
+                        <div class="un_cntEdit_menu">
+                            <a href="#" class="ic_bgPlus__blue"></a>
+                            <ul class="un_cntEdit_icWrapper">
+                                <li href="#" class="ic_paperText"></li>
+                                <li href="#" class="ic_img"></li>
+                                <li href="#" class="ic_shoppingBag"></li>
+                            </ul>
+                        </div>  
+                        <!-- 사진 추가 시 -->
+                        <section class="un_cntEdit_img un_cntEdit_cntUint un_cntEdit_cntUint__h258">
+                            <h3>이미지 업로드</h3>
+                            <figure class="un_cntEdit_imgWrapper">
+                                <input type="file" id="cntEditImg" class="blind">
+                                <label for="cntEditImg">
+                                    <img class="blind" src="https://cdn.pixabay.com/photo/2022/02/20/09/46/lama-7024125__340.jpg">
+                                </label>
+                            </figure>
+                            <div class="un_cntEdit_icBox">
+                                <a href="#" class="ic_wastebasket"></a>
+                                <div class="un_cntEdit_arrowBox">
+                                    <a href="#" class="ic_lineArrow__top"></a>
+                                    <a href="#" class="ic_lineArrow__bottom"></a>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- 메뉴 -->
+                        <div class="un_cntEdit_menu">
+                            <a href="#" class="ic_bgPlus__blue"></a>
+                            <ul class="un_cntEdit_icWrapper">
+                                <li href="#" class="ic_paperText"></li>
+                                <li href="#" class="ic_img"></li>
+                                <li href="#" class="ic_shoppingBag"></li>
+                            </ul>
+                        </div>
+                        <!-- 상품 추가 시 -->
+                        <section class="un_cntEdit_product un_cntEdit_cntUint un_cntEdit_cntUint__h272">
+                            <h3>상품 업로드</h3>
+                            <div class="un_cntEdit_productItem">
+                                <div class="un_cntEdit_productInfo">
+                                    <input type="text" id="Name" placeholder="상품명">
+                                    <input type="text" id="price" placeholder="가격">
+                                    <input type="text" id="link" placeholder="연결 링크">
+                                </div>
+                                <figure class="un_cntEdit_product_imgWrapper">
+                                    <input type="file" id="cntEdit_productImg" class="blind">
+                                    <label for="cntEdit_productImg">
+                                        <img class="blind" src="https://cdn.pixabay.com/photo/2022/02/20/09/46/lama-7024125__340.jpg">
+                                    </label>
+                                </figure>
+                            </div>
+                            <div class="un_cntEdit_icBox">
+                                <a href="#" class="ic_wastebasket"></a>
+                                <div class="un_cntEdit_arrowBox">
+                                    <a href="#" class="ic_lineArrow__top"></a>
+                                    <a href="#" class="ic_lineArrow__bottom"></a>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- 메뉴 -->
+                        <div class="un_cntEdit_menu">
+                            <a href="#" class="ic_bgPlus__blue"></a>
+                            <ul class="un_cntEdit_icWrapper">
+                                <li href="#" class="ic_paperText"></li>
+                                <li href="#" class="ic_img"></li>
+                                <li href="#" class="ic_shoppingBag"></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <!-- 미리보기 -->
+                    <article>
+                        <!-- 타이틀 -->
+                        <section class="el_mainTtl_wrapper between">
+                            <h1 class="el_mainTtl">미리보기</h1>
+                        </section>
+                        <section class="un_movbileView_wrapper">
+                            <input type="radio" name="phoneScale" id="phone_sm">
+                            <label for="phone_sm" style="--i:0">320 x 640</label>
+                            <input type="radio" name="phoneScale" id="phone_md">
+                            <label for="phone_md" style="--i:1">480 x 800</label>
+                            <input type="radio" checked name="phoneScale" id="phone_lg">
+                            <label for="phone_lg" style="--i:2">640 x 960</label>
+                            <!-- 핸드폰 뷰 -->
+                            <div class="un_mobileView">
+                                <div class="un_mobileView_topBar"></div>
+                                <div class="un_mobileView_inner">
+                                    <div class="un_mobileView_cnt">
+                                        <div class="un_mobileView_youtube"></div>
+                                        <p class="un_mobileView_ttl">발 각질이 고민이라면?</p>
+                                        <p class="un_mobileView_txt">점심에 모밀만 먹었더니 너무 배고프네 </p>
+                                        <img class="un_mobileView_img" src="https://cdn.pixabay.com/photo/2022/02/20/09/46/lama-7024125__340.jpg" alt="미리보기 더미 이미지">
+                                        <!-- 상품 슬라이드 -->
+                                        <ul class="un_mobileView_product">
+                                            <li class="un_mobileView_productItem">
+                                                <figure class="un_mobileView_productImgWrapper">
+                                                    <img src="https://cdn.pixabay.com/photo/2022/02/20/09/46/lama-7024125__340.jpg" alt="상품 이미지">
+                                                </figure>
+                                                <h4 class="un_mobileView_productName">사막에서 끄떡없는 제네시스 낙타</h4>
+                                                <p class="un_mobileView_productPrice">155,000<span>원</span></p>
+                                                <button class="un_mobileView_productBtn">구매하기</button>
+                                            </li>
+                                            <li class="un_mobileView_productItem">
+                                                <figure class="un_mobileView_productImgWrapper">
+                                                    <img src="https://cdn.pixabay.com/photo/2022/02/20/09/46/lama-7024125__340.jpg" alt="상품 이미지">
+                                                </figure>
+                                                <h4 class="un_mobileView_productName">사막에서 끄떡없는 제네시스 낙타</h4>
+                                                <p class="un_mobileView_productPrice">155,000<span>원</span></p>
+                                                <button class="un_mobileView_productBtn">구매하기</button>
+                                            </li>
+                                            <li class="un_mobileView_productItem">
+                                                <figure class="un_mobileView_productImgWrapper">
+                                                    <img src="https://cdn.pixabay.com/photo/2022/02/20/09/46/lama-7024125__340.jpg" alt="상품 이미지">
+                                                </figure>
+                                                <h4 class="un_mobileView_productName">사막에서 끄떡없는 제네시스 낙타</h4>
+                                                <p class="un_mobileView_productPrice">155,000<span>원</span></p>
+                                                <button class="un_mobileView_productBtn">구매하기</button>
+                                            </li>
+                                        </ul>
+                                        <!-- 연관, 추천 컨테츠 -->
+                                        <div class="un_mobileView_addCnt">
+                                            <h2 class="un_mobileView_addCnt_ttl">연관 컨텐츠</h2>
+                                            <div class="un_mobileView_addCnt_inner">
+                                                <div class="un_mobileView_addCnt_item">
+                                                    <figure class="un_mobileView_addCnt_imgWrapper">
+                                                        <img src="https://cdn.pixabay.com/photo/2022/02/20/09/46/lama-7024125__340.jpg">
+                                                    </figure>
+                                                    <div class="un_mobileView_addCnt_txt">
+                                                        <p>침침한 눈, 이대로 괜찮을까?</p>
+                                                    </div>     
+                                                </div>
+                                                <!-- /bl_slide_item  -->
+                                                <div class="un_mobileView_addCnt_item">
+                                                    <figure class="un_mobileView_addCnt_imgWrapper">
+                                                        <img src="https://cdn.pixabay.com/photo/2022/02/20/09/46/lama-7024125__340.jpg">
+                                                    </figure>
+                                                    <div class="un_mobileView_addCnt_txt">
+                                                        <p>침침한 눈, 이대로 괜찮을까?</p>
+                                                    </div>     
+                                                </div>
+                                                <!-- /bl_slide_item  -->
+                                            </div>
+                                            <!-- /bl_slide -->
+                                        </div>
+                                        <!-- /bl_slide_wrapper -->
+                                    </div>
+                                    <!-- /bl_slide_wrapper -->
+                                </div>
+                                <!-- /un_mobileView_inner -->
+                            </div>
+                        </section>
+                    </article>
+
+
+                </article>
+            </div>
+
+        </section>
+
+    </section>
+
+</body>
+</html>

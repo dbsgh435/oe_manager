@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/common.css">
+</head>
+<body>
+
+    <section id="main">
+
+<!-- --------------------------------------------------팝업 시작 ----------------------------------------------->
+
+        <!-- 승인모임 상세팝업 -->
+        <article class="bl_pop_wrapper blind">
+            <div class="bl_pop">
+                <p class="bl_pop_subTxt">2022-03-22 11:37:58</p>
+                <p class="bl_pop_Txt">
+                    모임이 '<strong>직원아이디</strong>'에 의해 <br>
+                    30명에서 40명으로 <span class="hp_cGreen">승인</span> 되었습니다.
+                </p>
+                <button class="el_bgBtn48">확인</button>
+            </div>
+        </article>
+
+        <!-- 거절모임 상세팝업 -->
+        <article class="bl_pop_wrapper blind">
+            <div class="bl_pop">
+                <p class="bl_pop_subTxt">2022-03-22 11:37:58</p>
+                <p class="bl_pop_Txt">
+                    '<strong>직원아이디</strong>'에 의해 <br>
+                    요청이 <span class="hp_cRed">거절</span> 되었습니다.
+                </p>
+                <div class="bl_pop_cntBox">
+                    <h3>사유</h3>
+                    <p>활동기간이 주가 넘은 인원이 3명 이상 있으므로 인원 확장 요청이 취소되었습니다.</p>
+                </div>
+                <button class="el_bgBtn48">확인</button>
+            </div>
+        </article>
+
+        <!-- 인원확장 승인 팝업 -->
+        <article class="bl_pop_wrapper blind">
+            <div class="bl_pop">
+                <p class="bl_pop_Txt bl_pop_Txt__center">
+                    <strong>인원확장 승인하기</strong>
+                </p>
+                <div class="bl_changeNum">
+                    <div class="bl_changeNum_inpUnit bl_changeNum_inpUnit__soft">
+                        <p>현재인원</p>
+                        <input type="number" disabled placeholder="30">
+                    </div>
+                    <a href="#" class="bl_changeNum_ic"></a>
+                    <div class="bl_changeNum_inpUnit">
+                        <p>변경인원</p>
+                        <input type="number" placeholder="40">
+                    </div>
+                </div>
+                <div class="el_bgBtn48_wrapper">
+                    <button class="el_bgBtn48 el_bgBtn48_s">확인</button>
+                    <button class="el_bgBtn48 el_bgBtn48_s el_bgBtn48_soft">취소</button>
+                </div>
+            </div>
+        </article>
+
+        <!-- 인원확장 거절 팝업 -->
+        <article class="bl_pop_wrapper blind">
+            <div class="bl_pop">
+                <p class="bl_pop_Txt bl_pop_Txt__center">
+                    <strong>인원확장 거절하기</strong>
+                </p>
+                <textarea placeholder="거절사유를 입력해주세요" class="bl_pop_cntBox"></textarea>
+                <div class="el_bgBtn48_wrapper">
+                    <button class="el_bgBtn48 el_bgBtn48_s">확인</button>
+                    <button class="el_bgBtn48 el_bgBtn48_s el_bgBtn48_soft">취소</button>
+                </div>
+            </div>
+        </article>
+
+<!-- --------------------------------------------------팝업 끝 ----------------------------------------------->
+
+        <header class="hp_bgGreen">
+            <div class="ly_header bl_header">
+                <figure class="bl_header_imgWrapper">
+                    <img src="/images/logo_oeText.svg" alt="오이로고 이미지">
+                </figure>
+                <p class="bl_header_txt">관리</p>
+            </div>
+        </header>
+
+        <section class="ly_main">
+            <div>
+                <!-- 사이드 메뉴 -->
+                <aside>
+                    <nav class="bl_sideNavBar">
+                        <ul>
+                            <li class="bl_sideNavBar_list">
+                                <a class="on" href="#">메인</a>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#" class="hp_nomalCusor">회원관리</a>
+                                <ul>
+                                    <li class="bl_sideNavBar_subList"><a href="#">가입자수</a></li>
+                                    <li class="bl_sideNavBar_subList"><a href="#">탈퇴회원</a></li>
+                                </ul>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#" class="hp_nomalCusor">모임</a>
+                                <ul>
+                                    <li class="bl_sideNavBar_subList"><a href="#">모임정보</a></li>
+                                    <li class="bl_sideNavBar_subList"><a href="#">인원확장요청</a></li>
+                                </ul>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#">커뮤니티</a>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#" class="hp_nomalCusor">컨텐츠</a>
+                                <ul>
+                                    <li class="bl_sideNavBar_subList"><a href="#">컨텐츠내역</a></li>
+                                    <li class="bl_sideNavBar_subList"><a href="#">컨텐츠작성</a></li>
+                                </ul>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#">통계</a>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#" class="hp_nomalCusor">알림</a>
+                                <ul>
+                                    <li class="bl_sideNavBar_subList"><a href="#">알림내역</a></li>
+                                    <li class="bl_sideNavBar_subList"><a href="#">알림작성</a></li>
+                                </ul>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#">신고</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+
+                <article class="ly_contents">
+                    <section class="el_mainTtl_wrapper">
+                        <h1 class="el_mainTtl">오이 목표</h1>
+                    </section>
+
+                    <section class="ly_mainCnt">
+                        <div class="un_oeGoalNum">
+                            <div class="un_oeGoalNum_target">
+                                <h2>목표 가입자 수</h2>
+                                <p><strong>1,000,000</strong> 명</p>
+                            </div>
+                            <!-- 0 이었다가 0.4 초마다 1의 자리부터 숫자 바귐 -->
+                            <div class="un_oeGoalNum_now">
+                                <section class="un_oeGoalNum_unit">
+                                    <div class="un_oeGoalNum_item" style="--i:7">
+                                        <p>0</p>
+                                        <div class="backface"></div>
+                                    </div>
+                                </section>
+                                <section class="un_oeGoalNum_unit">
+                                    <div class="un_oeGoalNum_item" style="--i:6">
+                                        <p>0</p>
+                                        <div class="backface"></div>
+                                    </div>
+                                    <div class="un_oeGoalNum_item" style="--i:5">
+                                        <p>0</p>
+                                        <div class="backface"></div>
+                                    </div>
+                                    <div class="un_oeGoalNum_item" style="--i:4">
+                                        <p>0</p>
+                                        <div class="backface"></div>
+                                    </div>
+                                </section>
+                                <section class="un_oeGoalNum_unit">
+                                    <div class="un_oeGoalNum_item" style="--i:3">
+                                        <p>0</p>
+                                        <div class="backface"></div>
+                                    </div>
+                                    <div class="un_oeGoalNum_item" style="--i:2">
+                                        <p>0</p>
+                                        <div class="backface"></div>
+                                    </div>
+                                    <div class="un_oeGoalNum_item" style="--i:1">
+                                        <p>0</p>
+                                        <div class="backface"></div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="el_mainTtl_wrapper">
+                        <h1 class="el_mainTtl">기본 정보</h1>
+                    </section>
+
+                    <section class="ly_mainCnt2">
+                        <div class="bl_valueBox">
+                            <section class="bl_valueBox_unit">
+                                <h3>오늘 가입자 수</h3>
+                                <p class="hp_cGreen">22</p>
+                            </section>
+                            <section class="bl_valueBox_unit">
+                                <h3>오늘 탈퇴 회원 수</h3>
+                                <p class="hp_cGreen">2</p>
+                            </section>
+                            <section class="bl_valueBox_unit">
+                                <h3>모임 확장 요청 (대기증)</h3>
+                                <p class="hp_cRed">3</p>
+                            </section>
+                            <section class="bl_valueBox_unit">
+                                <h3>신고 접수 (대기중)</h3>
+                                <p class="hp_f18 hp_cSoft">준비중</p>
+                            </section>
+                        </div>
+                    </section>
+
+                </article>
+            </div>
+
+        </section>
+
+    </section>
+
+</body>
+</html>

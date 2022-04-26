@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/common.css">
+</head>
+<body>
+
+    <section id="main">
+
+<!-- ------------------------------팝업 시작 -------------------------->
+
+        <!-- 회색 '경고'버튼 선택시 -->
+        <article class="bl_pop_wrapper blind">
+            <div class="bl_pop">
+                <h3 class="bl_pop_Txt bl_pop_Txt__center">모임 경고</h3>
+                <p class="bl_pop_subTxt bl_pop_subTxt_soft">사유는 글 작성자에게 <strong>앱 내의 알림</strong>으로 전송됩니다.</p>
+                <textarea class="bl_pop_cntBox hp_mb15 hp_w100p" placeholder="경고 사유를 입력해주세요."></textarea>
+                <p class="bl_pop_subTxt bl_pop_subTxt_soft prevIc">경고 후 <strong>30일</strong>경과되면 일반상태로 변경됩니다.</p>
+                <p class="bl_pop_subTxt bl_pop_subTxt_soft prevIc">경고 <strong>일주일 후 부터</strong> 삭제가 가능합니다.</p>
+                <div class="el_bgBtn48_wrapper hp_mt15">
+                    <button class="el_bgBtn48">확인</button>
+                    <button class="el_bgBtn48 el_bgBtn48_soft">취소</button>
+                </div>
+            </div>
+        </article>
+
+        <!-- 팝업 2개 = 빨간색 '삭제'버튼 선택시 / 삭제팝업에서 확인 선택 시 -->
+        <article class="bl_pop_wrapper blind">
+
+            <!-- 빨간색 '삭제'버튼 선택시 -->
+            <div class="bl_pop">
+                <h3 class="bl_pop_Txt bl_pop_Txt__center">모임 삭제</h3>
+                <p class="bl_pop_subTxt bl_pop_subTxt_soft">사유는 글 작성자에게 <strong>앱 내의 알림</strong>으로 전송됩니다.</p>
+                <textarea class="bl_pop_cntBox hp_w100p" placeholder="삭제 사유를 입력해주세요."></textarea>
+                <div class="el_bgBtn48_wrapper">
+                    <button class="el_bgBtn48">확인</button>
+                    <button class="el_bgBtn48 el_bgBtn48_soft">취소</button>
+                </div>
+            </div>
+
+            <!-- 삭제팝업에서 확인 선택 시 -->
+            <div class="bl_pop blind">
+                <h3 class="bl_pop_Txt bl_pop_Txt__center">해당 모임이 앱 내에서 영구적으로 삭제되며<br> 복구가 불가능합니다.</h3>
+                <p class="bl_pop_subTxt bl_pop_subTxt_soft center">삭제를 원하시면 <strong class="hp_cRed">삭제하기</strong>를 입력 후 확인을 눌러주세요.</p>
+                <input type="text" class="bl_pop_cntBox bl_pop_cntBox_inp hp_w100p">
+                <div class="el_bgBtn48_wrapper">
+                    <button class="el_bgBtn48">확인</button>
+                    <button class="el_bgBtn48 el_bgBtn48_soft">취소</button>
+                </div>
+            </div>
+
+        </article>
+
+        <!-- 주황색 '경고'버튼 선택시 -->
+        <article class="bl_pop_wrapper blind">
+            <div class="bl_pop">
+                <p class="bl_pop_subTxt">2022-03-22 11:37:58</p>
+                <p class="bl_pop_Txt hp_mb15">'<strong>직원아이디</strong>'에 의해 <strong class="hp_cOrange">경고</strong>처리 되었습니다.</p>
+                <div class="bl_pop_cntBox">
+                    <h3>사유</h3>
+                    <p>활동기간이 주가 넘은 인원이 3명 이상 있으므로 인원 확장 요청이 취소되었습니다.</p>
+                </div>
+                <button class="el_bgBtn48">확인</button>
+            </div>
+        </article>
+
+        <!-- 모임 정보 팝업 -->
+        <article class="bl_pop_wrapper blind">
+            <div class="bl_pop">
+                <p class="bl_pop_Txt bl_pop_Txt__center">모임정보</p>
+                <div class="bl_popTextInfo">
+                    <section class="bl_popTextInfo_unit">
+                        <h3>모임명</h3>
+                        <p>아리랑 고개로 넘어가자</p>
+                    </section>
+                    <section class="bl_popTextInfo_unit">
+                        <h3>모임장</h3>
+                        <p>아리랑고개</p>
+                    </section>
+                    <section class="bl_popTextInfo_unit">
+                        <h3>연락처</h3>
+                        <p>010-6880-0703</p>
+                    </section>
+                    <section class="bl_popTextInfo_unit">
+                        <h3>상태</h3>
+                        <p class="hp_cGreen">정상</p>
+                    </section>
+                    <section class="bl_popTextInfo_unit blind">
+                        <h3>남은 경고 기간</h3>
+                        <p>26일</p>
+                    </section>
+                </div>
+                <!-- 경고나 삭제 상태일 경우 -->
+                <div class="blind">
+                    <p class="bl_pop_subTxt">2022-03-22 11:37:58</p>
+                    <p class="bl_pop_Txt hp_mb15">'<strong>직원아이디</strong>'에 의해 <strong class="hp_cOrange">경고</strong>처리 되었습니다.</p>
+                    <div class="bl_pop_cntBox">
+                        <h3>사유</h3>
+                        <p>활동기간이 주가 넘은 인원이 3명 이상 있으므로 인원 확장 요청이 취소되었습니다.</p>
+                    </div>
+                </div>
+                <!-- 삭제 상태일 경우 -->
+                <div class="blind">
+                    <p class="bl_pop_subTxt">2022-03-22 11:37:58</p>
+                    <p class="bl_pop_Txt hp_mb15">'<strong>직원아이디</strong>'에 의해 <strong class="hp_cRed">삭제</strong>처리 되었습니다.</p>
+                    <div class="bl_pop_cntBox">
+                        <h3>사유</h3>
+                        <p>활동기간이 주가 넘은 인원이 3명 이상 있으므로 인원 확장 요청이 취소되었습니다.</p>
+                    </div>
+                </div>
+                <button class="el_bgBtn48">확인</button>
+            </div>
+        </article>
+
+        <!-- 모임 신고 정보 팝업 -->
+        <article class="bl_pop_wrapper blind">
+
+            <!-- 모임 신고 정보 팝업 -->
+            <div class="bl_pop blind">
+                <p class="bl_pop_Txt bl_pop_Txt__center">모임 신고 정보</p>
+                <div class="bl_popTextInfo">
+                    <section class="bl_popTextInfo_unit">
+                        <h3>모임명</h3>
+                        <p>모임장</p>
+                    </section>
+                    <section class="bl_popTextInfo_unit">
+                        <h3>연락처</h3>
+                        <p>010-6880-0703</p>
+                    </section>
+                    <section class="bl_popTextInfo_unit">
+                        <h3>지역</h3>
+                        <p>광주 광역시 동대문구</p>
+                    </section>
+                </div>
+                <div class="bl_popTextInfo">
+                    <h3 class="bl_popTextInfo_ttl">받은 신고 내역</h3>
+                    <ul class="bl_popTextInfo_listWrapper">
+                        <li class="bl_popTextInfo_list">
+                            <span>2022-03-22 11:37:58</span>
+                            <p>신고 되었습니다.</p>
+                        </li>
+                        <li class="bl_popTextInfo_list">
+                            <span>2022-03-22 11:37:58</span>
+                            <p>신고 되었습니다.</p>
+                        </li>
+                    </ul>
+                </div>
+                <button class="el_bgBtn48">확인</button>
+            </div>
+
+            <!-- '모임 신고 정보'에서 신고 내역 선택시 -->
+            <div class="bl_pop">
+                <p class="bl_pop_subTxt">2022-03-22 11:37:58 <span>사는 이야기</span></p>
+                <div class="bl_pop_cntBoxWrapper bl_pop_cntBoxWrapper__reportV">
+                    <div class="bl_pop_cntBox">
+                        <h3>혜자맘</h3>
+                        <p>활동기간이 주가 넘은 인원이 3명 이상 있으므로 인원 확장 요청이 취소되었습니다.</p>
+                    </div>
+                    <a href="#" class="ic_arrow__right"></a>
+                    <div class="bl_pop_cntBox">
+                        <h3>모임명</h3>
+                        <p>모임장, 연락처, 지역, 현재 상태, 인원</p>
+                    </div>
+                </div>
+                <button class="el_bgBtn48">확인</button>
+            </div>
+        </article>
+
+
+<!-- ------------------------------------------팝업 끝----------------------------------------------->
+
+        <header class="hp_bgGreen">
+            <div class="ly_header bl_header">
+                <figure class="bl_header_imgWrapper">
+                    <img src="/images/logo_oeText.svg" alt="오이로고 이미지">
+                </figure>
+                <p class="bl_header_txt">관리</p>
+            </div>
+        </header>
+
+        <section class="ly_main">
+            <div>
+                <!-- 사이드 메뉴 -->
+                <aside>
+                    <nav class="bl_sideNavBar">
+                        <ul>
+                            <li class="bl_sideNavBar_list on">
+                                <a href="#">메인</a>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#" class="hp_nomalCusor">회원관리</a>
+                                <ul>
+                                    <li class="bl_sideNavBar_subList"><a href="#">가입자수</a></li>
+                                    <li class="bl_sideNavBar_subList"><a href="#">탈퇴회원</a></li>
+                                </ul>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#" class="hp_nomalCusor">모임</a>
+                                <ul>
+                                    <li class="bl_sideNavBar_subList"><a href="#">모임정보</a></li>
+                                    <li class="bl_sideNavBar_subList"><a class="on" href="#">인원확장요청</a></li>
+                                </ul>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#">커뮤니티</a>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#" class="hp_nomalCusor">컨텐츠</a>
+                                <ul>
+                                    <li class="bl_sideNavBar_subList"><a href="#">컨텐츠내역</a></li>
+                                    <li class="bl_sideNavBar_subList"><a href="#">컨텐츠작성</a></li>
+                                </ul>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#">통계</a>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#" class="hp_nomalCusor">알림</a>
+                                <ul>
+                                    <li class="bl_sideNavBar_subList"><a href="#">알림내역</a></li>
+                                    <li class="bl_sideNavBar_subList"><a href="#">알림작성</a></li>
+                                </ul>
+                            </li>
+                            <li class="bl_sideNavBar_list">
+                                <a href="#">신고</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+
+                <article class="ly_contents">
+                    <!-- 타이틀 -->
+                    <section class="el_mainTtl_wrapper">
+                        <h1 class="el_mainTtl">모임 정보</h1>
+                    </section>
+                    <!-- 카테고리 -->
+                    <section class="bl_mainCat_wrapper">
+                        <ul class="bl_mainCat">
+                            <!-- .on추가시 활성화 -->
+                            <li class="bl_mainCat_list on">전체</li>
+                            <li class="bl_mainCat_list">일반</li>
+                            <li class="bl_mainCat_list">경고</li>
+                            <li class="bl_mainCat_list">삭제</li>
+                        </ul>
+                    </section>
+                    <!-- 날짜 필터링 -->
+                    <section class="ly_dateCat blind">
+                        <ul class="bl_subCat">
+                            <!-- .on추가시 활성화 -->
+                            <li class="bl_subCat_list">1주일</li>
+                            <li class="bl_subCat_list">1개월</li>
+                            <li class="bl_subCat_list">3개월</li>
+                            <li class="bl_subCat_list">전체</li>
+                            <li class="bl_subCat_list on">오늘</li>
+                        </ul>
+                        <div class="bl_dateSearch">
+                            <section class="bl_dateSearch_inpWrapper">
+                                <input type="number" disabled placeholder="2022.03.22">
+                            </section>
+                            <div class="bl_dateSearch_hyphen"></div>
+                            <section class="bl_dateSearch_inpWrapper">
+                                <input type="number" disabled placeholder="2022.03.22">
+                            </section>
+                            <button class="bl_dateSearch_btn">조회</button>
+                        </div>
+                    </section>
+                    <!-- 총 수 -->
+                    <section class="el_mainValue ly_mainValue">
+                        <p class="el_mainValue_subTxt">2022.03.22. 기준</p>
+                        <p class="el_mainValue_txt">12<span>건</span></p>
+                    </section>
+                    <!-- 표(모임 정보) -->
+                    <section class="bl_mainTable_wrapper">
+                        <table class="bl_mainTable">
+                            <!-- .hover 추가시 호버 이벤트 생성 / .delet 추가서 비활성화 -->
+                            <tr class="bl_mainTable_row ">
+                                <th class="bl_mainTable_cat hp_w107">개설일시</th>
+                                <th class="bl_mainTable_cat hp_w114">지역</th>
+                                <th class="bl_mainTable_cat hp_w191">모임명</th>
+                                <th class="bl_mainTable_cat hp_w57">인원</th>
+                                <th class="bl_mainTable_cat hp_w93">순위 / 점수</th>
+                                <th class="bl_mainTable_cat hp_w57">평점</th>
+                                <th class="bl_mainTable_cat hp_w63">받은신고</th>
+                                <th class="bl_mainTable_cat hp_w72">조치</th>
+                            </tr>
+                            <tr class="bl_mainTable_row ">
+                                <td class="bl_mainTable_col">2022-03-21</td>
+                                <td class="bl_mainTable_col">광주광역시 동대문구</td>
+                                <td class="bl_mainTable_col">영화를 좋아하는 사람들의 방</td>
+                                <td class="bl_mainTable_col">30 / 30</td>
+                                <td class="bl_mainTable_col">3 / 724</td>
+                                <td class="bl_mainTable_col">4.6</td>
+                                <td class="bl_mainTable_col hp_cRed">2건</td>
+                                <td class="bl_mainTable_col">
+                                    <button class="el_lineBtn">경고</button>
+                                </td>
+                            </tr>
+                            <tr class="bl_mainTable_row ">
+                                <td class="bl_mainTable_col">2022-03-21</td>
+                                <td class="bl_mainTable_col">광주광역시 동대문구</td>
+                                <td class="bl_mainTable_col">영화를 좋아하는 사람들의 방</td>
+                                <td class="bl_mainTable_col">30 / 30</td>
+                                <td class="bl_mainTable_col">3 / 724</td>
+                                <td class="bl_mainTable_col">4.6</td>
+                                <td class="bl_mainTable_col hp_cRed">2건</td>
+                                <td class="bl_mainTable_col">
+                                    <button class="el_lineBtn el_lineBtn__orange">경고</button>    
+                                </td>
+                            </tr>
+                            <tr class="bl_mainTable_row ">
+                                <td class="bl_mainTable_col">2022-03-21</td>
+                                <td class="bl_mainTable_col">광주광역시 동대문구</td>
+                                <td class="bl_mainTable_col">영화를 좋아하는 사람들의 방</td>
+                                <td class="bl_mainTable_col">30 / 30</td>
+                                <td class="bl_mainTable_col">3 / 724</td>
+                                <td class="bl_mainTable_col">4.6</td>
+                                <td class="bl_mainTable_col">0건</td>
+                                <td class="bl_mainTable_col">
+                                    <button class="el_lineBtn">경고</button>
+                                </td>
+                            </tr>
+                            <tr class="bl_mainTable_row ">
+                                <td class="bl_mainTable_col">2022-03-21</td>
+                                <td class="bl_mainTable_col">광주광역시 동대문구</td>
+                                <td class="bl_mainTable_col">영화를 좋아하는 사람들의 방</td>
+                                <td class="bl_mainTable_col">30 / 30</td>
+                                <td class="bl_mainTable_col">3 / 724</td>
+                                <td class="bl_mainTable_col">4.6</td>
+                                <td class="bl_mainTable_col">0건</td>
+                                <td class="bl_mainTable_col">
+                                    <button class="el_lineBtn el_lineBtn__red">삭제</button> 
+                                </td>
+                            </tr>
+                            <tr class="bl_mainTable_row delet">
+                                <td class="bl_mainTable_col">2022-03-21</td>
+                                <td class="bl_mainTable_col">광주광역시 동대문구</td>
+                                <td class="bl_mainTable_col">영화를 좋아하는 사람들의 방</td>
+                                <td class="bl_mainTable_col">30 / 30</td>
+                                <td class="bl_mainTable_col">3 / 724</td>
+                                <td class="bl_mainTable_col">4.6</td>
+                                <td class="bl_mainTable_col">0건</td>
+                                <td class="bl_mainTable_col">
+                                    <button class="el_lineBtn">삭제됨</button>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="ly_tableFooter">
+                            <div class="bl_pageControl">
+                                <a href="#" class="ic_roundArrow__left2 blind"></a>
+                                <a href="#" class="ic_roundArrow__left"></a>
+                                <p>1 / 3</p>
+                                <a href="#" class="ic_roundArrow__left rev"></a>
+                                <a href="#" class="ic_roundArrow__left2 rev"></a>
+                            </div>
+                            <select class="el_countView el_countView__posTableBtm">
+                                <option>10개 씩 보기</option>
+                                <option>20개 씩 보기</option>
+                                <option>30개 씩 보기</option>
+                                <option>모두 보기</option>
+                            </select>
+                        </div>
+                    </section>
+                </article>
+            </div>
+
+        </section>
+
+    </section>
+
+</body>
+</html>

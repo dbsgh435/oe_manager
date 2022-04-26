@@ -58,3 +58,5 @@ table {
 .blind {
 	display: none !important;
 }
+input:focus::placeholder {color: transparent;}
+input:focus {outline: none;}
