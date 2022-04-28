@@ -184,6 +184,7 @@ header.hp_bgGreen {position: sticky; top: 0; z-index: 999;}
 
 .el_bgBtn48_wrapper > .el_bgBtn48 {margin: 0 4px;}
 .el_bgBtn48 {width: 162px; height: 48px; background: #25a765; border: none; color: #fff; cursor: pointer;}
+.el_bgBtn48:disabled {background: #f1f1f6; color: #767676;}
 /* 모디파이어 */
 .el_bgBtn48.el_bgBtn48_s {width: 145px;}
 .el_bgBtn48.el_bgBtn48_soft {background: #F1F1F0; color: #767676;}
@@ -463,6 +464,7 @@ header.hp_bgGreen {position: sticky; top: 0; z-index: 999;}
 .un_signUp_cnt {border: 1px solid #e5e5ec; padding: 50px 70px;}
 .un_signUp_inpWrapper {margin-bottom: 90px;}
 .un_signUp_info {display: flex; flex-direction: column; margin-bottom: 30px; position: relative;}
+.un_signUp_info input:disabled {background: none;}
 .un_signUp_info:first-child {margin-bottom: 90px;}
 .un_signUp_info input {width: 440px; height: 48px; margin-bottom: 30px; border: none; border-bottom: 1px solid #e5e5ec; font-size: 16px;}
 .un_signUp_info input:last-child {margin-bottom: 0px;}
