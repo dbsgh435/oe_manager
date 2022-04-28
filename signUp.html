@@ -18,19 +18,16 @@
                         <p class="hp_cRed">비밀번호가 일치하지 않습니다.</p>
                         <input type="password" placeholder="이름">
                         <input type="text" placeholder="아이디">
+                        <!-- .hp_bbRed 추가시 빨간 줄 -->
                         <input type="password" class="hp_bbRed" placeholder="비밀번호">
                         <input type="password" class="hp_bbRed" placeholder="비밀번호 재확인">
                     </section>
                     <section class="un_signUp_info">
-                        <!-- 버튼 클릭시 .hp_MoreSoft 추가 -->
-                        <button class="hp_cMoreSoft">인증번호 발송</button>
-                        <input type="password" placeholder="담당자 핸드폰 번호">
-                    </section>
-                    <section class="un_signUp_info">
-                        <!-- 버튼 클릭시 .hp_MoreSoft 추가 -->
-                        <button class="hp_cMoreSoft">인증 확인</button>
-                        <p class="hp_cGreen">인증이 완료되었습니다.</p>
-                        <input type="password" class="hp_bbGreen" placeholder="인증번호를 입력해주세요">
+                        <!-- 버튼 클릭시 .soft 추가 -->
+                        <button class="soft">인증번호 발송</button>
+                        <p class="hp_cGreen ">인증이 완료되었습니다.</p>
+                        <!-- .hp_bbRed 추가시 빨간 줄 / .hp_bbGreen -->
+                        <input type="password" class="hp_bbGreen" placeholder="담당자에게 인증번호를 발송합니다">
                     </section>
                 </div>
                 <div class="un_signUp_textWrapper">
@@ -46,7 +43,8 @@
                     <p class="">위 사항에 모두 동의 합니다.</p>
                 </div>
                 <div class="un_signUp_btnWrapper">
-                    <button class="">완료</button>
+                    <!-- .el_bgBtn48_soft 제거시 버튼 활성화 -->
+                    <button class="el_bgBtn48 el_bgBtn48_soft">완료</button>
                 </div>
             </div>
             <!-- /un_signUp_cnt -->
