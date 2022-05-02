@@ -223,6 +223,8 @@ header.hp_bgGreen {position: sticky; top: 0; z-index: 999;}
 .hp_cSoft {color: #767676 !important;}
 .hp_cMoreSoft {color: #999 !important;}
 
+.hp_fBold {font-weight: bold;}
+
 .hp_f18 {font-size: 18px !important;}
 
 .hp_w318 {width: 318px !important;}
@@ -261,7 +263,6 @@ header.hp_bgGreen {position: sticky; top: 0; z-index: 999;}
 
 .hp_taRight{text-align: right;}
 .hp_taLeft{text-align: left;}
-
 
 .un_falseBtn {color: #dc0000; background: none; border: none; }
 .un_trueBtn {color: #25a765; background: none; border: none; }
