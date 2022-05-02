@@ -14,21 +14,23 @@
             <h2 class="un_signUp_ttl">회원가입</h2>
             <div class="un_signUp_cnt">
                 <div class="un_signUp_inpWrapper">
-                    <section class="un_signUp_info">
+                    <form class="un_signUp_info">
                         <p class="hp_cRed">비밀번호가 일치하지 않습니다.</p>
                         <input type="password" placeholder="이름">
                         <input type="text" placeholder="아이디">
                         <!-- .hp_bbRed 추가시 빨간 줄 -->
-                        <input type="password" class="hp_bbRed" placeholder="비밀번호">
-                        <input type="password" class="hp_bbRed" placeholder="비밀번호 재확인">
-                    </section>
-                    <section class="un_signUp_info">
+                        <form>
+                            <input type="password" class="hp_bbRed" placeholder="비밀번호">
+                            <input type="password" class="hp_bbRed" placeholder="비밀번호 재확인">
+                        </form>
+                    </form>
+                    <form class="un_signUp_info">
                         <!-- 버튼 클릭시 .soft 추가 -->
                         <button class="soft">인증번호 발송</button>
                         <p class="hp_cGreen">인증이 완료되었습니다.</p>
                         <!-- .hp_bbRed 추가시 빨간 줄 / .hp_bbGreen -->
                         <input type="password" class="hp_bbGreen" disabled placeholder="담당자에게 인증번호를 발송합니다">
-                    </section>
+                    </form>
                 </div>
                 <div class="un_signUp_textWrapper">
                     <h3 class="un_signUp_textTtl">오이 관리자 페이지 이용 약관</h3>
