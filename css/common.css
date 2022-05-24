@@ -54,7 +54,7 @@ header.hp_bgGreen {position: sticky; top: 0; z-index: 999;}
 .bl_subCat_list.on {color: #191919; border: 1px solid #191919;}
 
 .bl_dateSearch {display: flex; align-items: center; position: relative; top: 1px; margin-left: 18px;}
-.bl_dateSearch_inpWrapper input {display: block; height: 32px; padding: 0 8px; width: 120px; border: 1px solid #e5e5ec; background: url(/images/ic_schedule.svg) right 8px center no-repeat; cursor: pointer;}
+.bl_dateSearch_inpWrapper input {display: block; height: 32px; padding: 0 8px; width: 120px; border: 1px solid #e5e5ec;  cursor: pointer;}
 .bl_dateSearch_inpWrapper input::placeholder {color: #191919;}
 .bl_dateSearch_hyphen {width: 6px; height: 1px; background: #e5e5ec; margin: 0 4px;}
 .bl_dateSearch_btn {width: 78px; height: 32px; background: black; color: #fff; border: none; margin-left: 18px; cursor: pointer;}
