@@ -281,11 +281,11 @@ header.hp_bgGreen {position: sticky; top: 0; z-index: 999;}
 .un_oeGoalNum_target p {color: #000; font-size: 28px;}
 .un_oeGoalNum_target p > strong {font-size: 36px; font-weight: normal;}
 .un_oeGoalNum_now {display: flex; align-items: center; justify-content: center;}
-.un_oeGoalNum_unit { display: flex; margin: 0 15px; }
+.un_oeGoalNum_unit { display: flex; margin: 0 15px;}
 .un_oeGoalNum_item {width: 70px; height: 100px; margin: 0 4px; top: 0; position: relative; border-radius: 4px; font-size: 75px; font-weight: bold; transform-style: preserve-3d; perspective: 1500px;}
 .un_oeGoalNum_item > * {position: absolute; top: 0; backface-visibility: hidden; transition: 1s; border-radius: 4px;}
 .un_oeGoalNum_item:only-child {margin: 0;}
-.un_oeGoalNum_item p {padding-top: 7px; color: #fff; text-align: center; width: 70px; line-height: 100px; height: 100px; background: linear-gradient(to bottom, #4FB480, #0E7441); box-shadow: inset 1px 2px 3px rgba(255,255,255,0.6), inset -2px -2px 2px rgba(0,0,0,0.25);}
+.un_oeGoalNum_item p {font-family: 'Roboto'; color: #fff; text-align: center; width: 70px; display: flex; align-items: center; justify-content: center; height: 100px; background: linear-gradient(to bottom, #4FB480, #0E7441); box-shadow: inset 1px 2px 3px rgba(255,255,255,0.6), inset -2px -2px 2px rgba(0,0,0,0.25);}
 .un_oeGoalNum_item p::before {content: ''; display: block; width: 100%; height: 4px; position: absolute; top: 50%; transform: translateY(-50%); opacity: 0.1; background: linear-gradient( to bottom, black 50%, white 50%);}
 .un_oeGoalNum_item .backface {width: 100%; height: 100%; top: 0; background: #0E7441; transform: rotateX(180deg); background: linear-gradient(to bottom, #4FB480, #0E7441); box-shadow: inset 1px 2px 3px rgba(255,255,255,0.6), inset -2px -2px 2px rgba(0,0,0,0.25);}
 .un_oeGoalNum_item.am_GoalNum .backface {animation: numRotate_backface 0.4s var(--i) linear forwards;}
