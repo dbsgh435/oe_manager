@@ -2,9 +2,9 @@
 @import url('../css/base.css');
 
 
-header.hp_bgGreen {position: sticky; top: 0; z-index: 999;}
+header.hp_bgGreen {width: 100vw; position: fixed; top: 0; left: 0; z-index: 999;}
 
-.ly_header {padding: 12px; width: 1024px; margin: 0 auto;}
+.ly_header {padding: 12px 40px; max-width: 1080px; margin: 0 auto;}
 .ly_main {width: 1024px; margin: 0 auto;}
 .ly_mainCnt {padding: 60px 0;}
 .ly_mainCnt2 {padding: 40px 0;}
@@ -19,7 +19,7 @@ header.hp_bgGreen {position: sticky; top: 0; z-index: 999;}
 .bl_header {display: flex; align-items: center; justify-content: space-between;}
 .bl_header_imgWrapper {width: 74px; height: 34px;}
 .bl_header_imgWrapper img {width: 100%; height: 100%; object-fit: cover; object-position: center;}
-.bl_header_txt {font-size: 20px; color: #fff; margin-left: 20px; padding-left: 20px; border-left: 1px solid rgba(255,255,255,0.3);}
+.bl_header_txt {font-size: 16px; color: #fff; margin-left: 20px; padding-left: 12px; border-left: 1px solid rgba(255,255,255,0.3);}
 .bl_header_left {display: flex; align-items: center;}
 .bl_header_right {position: relative;}
 .bl_header_right p {color: #fff; font-size: 16px; height: 100%; cursor: pointer;}
@@ -27,7 +27,7 @@ header.hp_bgGreen {position: sticky; top: 0; z-index: 999;}
 .bl_header_right li {width: 100%; height: 48px; line-height: 48px; text-align: center; font-size: 15px; font-weight: normal; cursor: pointer;}
 .bl_header_right .am_click ~ ul {max-height: 150px;}
 
-.bl_sideNavBar {position: fixed; top: 58px; width: 190px; height: 100vh; padding-left: 20px; padding-right: 20px; border-right: 1px solid #e1e1e1;}
+.bl_sideNavBar {position: fixed; top: 58px; z-index: 99; width: 190px; height: 100vh; padding-left: 20px; padding-right: 20px; background: #fff; border-right: 1px solid #e1e1e1;}
 .bl_sideNavBar_list { border-bottom: 1px solid #e5e5ec; padding-top: 18px; padding-bottom: 18px; }
 .bl_sideNavBar_list a {display: inline-block; font-weight: bold; font-size: 13px;}
 .bl_sideNavBar_subList a {font-size: 12px; font-weight: normal; display: block; margin-top: 8px;}
@@ -238,6 +238,7 @@ header.hp_bgGreen {position: sticky; top: 0; z-index: 999;}
 .hp_w185 {width: 185px !important;}
 .hp_w174 {width: 174px !important;}
 .hp_w170 {width: 170px !important;}
+.hp_w164 {width: 164px !important;}
 .hp_w151 {width: 151px !important;}
 .hp_w130 {width: 130px !important;}
 .hp_w114 {width: 114px !important;}
