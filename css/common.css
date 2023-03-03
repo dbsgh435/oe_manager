@@ -89,6 +89,8 @@ header.hp_bgGreen {width: 100vw; position: fixed; top: 0; left: 0; z-index: 999;
 .bl_mainTable_col.hp_cRed {cursor: pointer;}
 .bl_mainTable_row.delet {position: relative;}
 .bl_mainTable_row.delet::after {content: ''; display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #ccc; opacity: 50%;}
+.bl_mainTable_row.delet .bl_mainTable_col:last-child {z-index: 1;}
+.bl_mainTable_row.delet .el_lineBtn {background: #fff; color: #0176f9; border-color: #0176f9;}
 .bl_mainTable.bl_mainTable__noticeV .bl_mainTable_col {line-height: normal; height: 80px; vertical-align: middle;}
 .bl_mainTable.bl_mainTable__noticeV .bl_mainTable_col h4 {font-weight: bold; margin-bottom: 2px;}
 .bl_mainTable.bl_mainTable__noticeV .bl_mainTable_col p {color: #505050;}
